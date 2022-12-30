@@ -5,7 +5,7 @@ export default function Home() {
     <section className="Home">
       <div className="about-me-title">
         <h2>Lorem Ipsum</h2>
-        <div className="bio">
+        <p className="bio">
           I am a full stack web developer completing the University of Texas
           Coding Bootcamp in January. I have acquired a high level programming
           knowlege from the structured practice offered by the program and
@@ -16,7 +16,7 @@ export default function Home() {
           coding, I enjoy playing chess, video games, reading, or hiking trails
           with my dog Young Neil. I am currently seeking to work with a team
           that is creating the software that will run tomorrow.
-        </div>
+        </p>
       </div>
     </section>
   );
