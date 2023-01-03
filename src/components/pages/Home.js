@@ -1,18 +1,22 @@
 import React from "react";
+import portrait from "../../assets/portrait.jpg";
 
 export default function Home() {
   return (
     <section className="Home">
       <div className="about-me-title">
+        <img
+          className="portrait"
+          src={portrait}
+          alt="A portrait of Aidan"
+        ></img>
         <h2>Lorem Ipsum</h2>
         <p className="bio">
           I am a full stack web developer completing the University of Texas
-          Coding Bootcamp in January. I have acquired a high level programming
-          knowledge from the structured practice offered by the program and
-          countless videos to better understand the frameworks and technologies
-          I work with. These now include React, Node.js, MongoDB, Express.js,
-          GraphQL, as well as a growing understanding of MVC, Object Oriented
-          Programming, and Object Relational Mapping.
+          Coding Bootcamp at the end of January. I have acquired a high level
+          programming knowledge from the structured practice offered by the
+          program and countless videos to better understand the frameworks and
+          technologies I work with.
         </p>
 
         <p>
@@ -23,6 +27,13 @@ export default function Home() {
         <p>
           I am currently seeking to work with a team that is creating the
           software that will run tomorrow.
+        </p>
+
+        <p>
+          The technologies I work with now include React, Node.js, MongoDB,
+          Express.js, GraphQL, GitHub, VS Code, as well as a growing
+          understanding of MVC, Object Oriented Programming, and Object
+          Relational Mapping.
         </p>
       </div>
     </section>
