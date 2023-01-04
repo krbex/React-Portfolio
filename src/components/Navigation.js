@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navigation({ currentPage, handlePageChange }) {
   return (
-    <div className="nav">
+    <div className="nav flex flex-row justify-end space-x-4">
       <p className="nav-item">
         <a
           href="#home"
