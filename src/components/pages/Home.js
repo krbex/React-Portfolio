@@ -10,7 +10,7 @@ export default function Home() {
           src={portrait}
           alt="A portrait of Aidan"
         ></img>
-        <h2>Lorem Ipsum</h2>
+        <h2 class="mt-7">Lorem Ipsum</h2>
         <p className="bio">
           I am a full stack web developer completing the University of Texas
           Coding Bootcamp at the end of January. I have acquired a high level
