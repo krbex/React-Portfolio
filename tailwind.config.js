@@ -5,6 +5,9 @@ module.exports = {
     files: ["./src/**/*.{js,jsx,ts,tsx}", "./public/**/*.html"],
 
     theme: {
+      backgroundColor: {
+        primary: "#ffed4a",
+      },
       screens: {
         sm: "640px",
         md: "768px",

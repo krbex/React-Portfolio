@@ -3,8 +3,8 @@ import portrait from "../../assets/portrait.jpg";
 
 export default function Home() {
   return (
-    <div className="">
-      <div class="bg-white md:max-w-6xl md:m-auto sm:rounded-lg p2 md:p-8 md:shadow-xxl shadow-xxl">
+    <div className="bg-blue-900">
+      <div class="bg-blue-500 md:max-w-6xl md:m-auto sm:rounded-lg p2 md:p-8 md:shadow-xxl shadow-xxl">
         <section className="Home">
           <div className="about-me-title flex flex-row">
             <img
@@ -13,8 +13,9 @@ export default function Home() {
               alt="A portrait of Aidan"
             ></img>
             <div>
-              <h2 class="text-3xl font-bold underline basis-1/2">
-                Aidan Krbec
+              <h2 class="text-3xl font-bold basis-1/2">
+                <span className="text-red-800">Aidan</span>{" "}
+                <span className=" text-zinc-100">Krbec</span>
               </h2>
               <div className="flex flex-col">
                 <p>

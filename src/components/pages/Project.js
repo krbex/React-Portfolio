@@ -11,11 +11,25 @@ export default function Project() {
       <h1 className="w-2">My Portfolio</h1>
       <div className="flex grid grid-cols-2 justify-center">
         <div className="w-1/2">
-          <div>
-            <a href="https://krbex.github.io/Book-Club/">
-              <img src={books} alt="the book club project"></img>
-            </a>
-            <p>The Book Club</p>
+          <div className="grid grid-cols-2">
+            <div>
+              <a href="https://krbex.github.io/Book-Club/">
+                <img
+                  src={books}
+                  style={{ height: 200 }}
+                  alt="the book club project"
+                ></img>
+              </a>
+              <p>The Book Club</p>
+            </div>
+            <div className="grid grid-cols-1">
+              <p>
+                The Book Club is a collaborative API tool that allows for users
+                to search for information on books they might be interested in
+                reading.
+              </p>
+              <p>Technologies used: Google Books API, JavaScript</p>
+            </div>
           </div>
           <div>
             <a href="https://github.com/krbex/Book-Club">
@@ -24,11 +38,25 @@ export default function Project() {
           </div>
         </div>
         <div className="w-1/2">
-          <div>
-            <a href="https://krbex.github.io/Weather-Channel/">
-              <img src={weather} alt="weather app project"></img>
-            </a>
-            <p>The Weather App</p>
+          <div className="grid grid-cols-2">
+            <div>
+              <a href="https://krbex.github.io/Weather-Channel/">
+                <img
+                  src={weather}
+                  style={{ height: 200 }}
+                  alt="weather app project"
+                ></img>
+              </a>
+              <p>The Weather App</p>
+            </div>
+            <div className="grid grid-cols-1">
+              <p>
+                The Weather Channel is an application that allows users to get a
+                5 day weather forecast for any city in the United States using
+                the OpenWeather API
+              </p>
+              <p>Technologies used: OpenWeather API, JavaScript</p>
+            </div>
           </div>
           <div>
             <a href="https://github.com/krbex/Weather-Channel">
@@ -37,11 +65,27 @@ export default function Project() {
           </div>
         </div>
         <div className="w-1/2">
-          <div>
-            <a href="https://coding-fuel.herokuapp.com/">
-              <img src={codingfuel} alt="coding fuel project"></img>
-            </a>
-            <p>Coding Fuel</p>
+          <div className="grid grid-cols-2">
+            <div>
+              <a href="https://coding-fuel.herokuapp.com/">
+                <img
+                  src={codingfuel}
+                  style={{ height: 200 }}
+                  alt="coding fuel project"
+                ></img>
+              </a>
+              <p>Coding Fuel</p>
+            </div>
+            <div className="grid grid-cols-1">
+              <p>
+                CodingFuel Interview Prep is a collaborative application aimed
+                to make the interview process easier for aspiring developers.
+              </p>
+              <p>
+                Technologies used: Express.JS, MySQL, Node.JS, Sequelize,
+                Handlebars
+              </p>
+            </div>
           </div>
           <div>
             <a href="href=https://github.com/krbex/CodingFuel-Interview-Prep">
@@ -50,9 +94,24 @@ export default function Project() {
           </div>
         </div>
         <div className="w-1/2">
-          <div>
-            <img src={aidan} alt="aidan's portfolio"></img>
-            <p>Aidan Krbec</p>
+          <div className="grid grid-cols-2">
+            <div>
+              <a href="https://krbec.herokuapp.com/">
+                <img
+                  src={aidan}
+                  style={{ height: 200 }}
+                  alt="aidan's portfolio"
+                ></img>
+              </a>
+              <p>Aidan Krbec</p>
+            </div>
+            <div className="grid grid-cols-1">
+              <p>
+                This is my portfolio website, a showcase of my front end
+                capabilities and some of the projects I have been a part of
+              </p>
+              <p>Technologies used: React, TailwindCSS</p>
+            </div>
           </div>
           <div>
             <a href="href=https://github.com/krbex/React-Portfolio">

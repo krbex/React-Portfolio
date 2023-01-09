@@ -1,4 +1,6 @@
 import React from "react";
+import github from "../assets/GitHub-Mark-32px.png";
+import linkedin from "../assets/linkedin.png";
 
 const Footer = () => {
   return (
@@ -16,6 +18,22 @@ const Footer = () => {
           </span>{" "}
           by Aidan Krbec.
         </h4>
+        <div className="flex justify-center">
+          <a href="https://github.com/krbex">
+            <img
+              className="transition hover:scale-125 duration-125"
+              src={github}
+              alt="github icon"
+            ></img>
+          </a>
+          <a href="https://www.linkedin.com/in/aidan-krbec-a86700128/">
+            <img
+              className="transition hover:scale-125 duration-125"
+              src={linkedin}
+              alt="linkedin icon"
+            ></img>
+          </a>
+        </div>
       </div>
     </footer>
   );
