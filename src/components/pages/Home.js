@@ -17,7 +17,7 @@ export default function Home() {
                 Aidan Krbec
               </h2>
               <div className="flex flex-col">
-                <p className="bio">
+                <p>
                   I am a full stack web developer completing the University of
                   Texas Coding Bootcamp at the end of January. I have acquired a
                   high level programming knowledge from the structured practice
@@ -28,24 +28,18 @@ export default function Home() {
                 <p>
                   My background has transformed me into a detail-oriented
                   problem solver with a knack for critically thinking through
-                  challenges.
+                  challenges, working in a team based setting, and always aiming
+                  to improve.
                 </p>
                 <br></br>
                 <p>
-                  When I am not learning coding, I enjoy playing chess, video
-                  games, reading, or hiking trails with my dog Young Neil.
+                  When I am not coding, I enjoy playing chess, video games,
+                  reading, or hiking trails with my dog Young Neil.
                 </p>
                 <br></br>
                 <p>
                   I am currently seeking to work with a team that is creating
                   the software that will run tomorrow.
-                </p>
-
-                <p>
-                  The technologies I work with now include React, Node.js,
-                  MongoDB, Express.js, GraphQL, GitHub, VS Code, as well as a
-                  growing understanding of MVC, Object Oriented Programming, and
-                  Object Relational Mapping.
                 </p>
               </div>
             </div>

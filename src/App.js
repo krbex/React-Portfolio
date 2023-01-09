@@ -5,7 +5,12 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div>
-      <PortfolioContainer /> <Footer />
+      <div>
+        <PortfolioContainer />
+      </div>
+      <div className="z-40">
+        <Footer />
+      </div>
     </div>
   );
 }
