@@ -7,16 +7,16 @@ import github from "../../assets/GitHub-Mark-32px.png";
 
 export default function Project() {
   return (
-    <div>
+    <div className="h-screen">
       <h1 className="w-2">My Portfolio</h1>
-      <div className="flex grid grid-cols-2 justify-center">
+      <div className="flex grid grid-cols-2 justify-center bg-blue-500 md:max-w-6xl md:m-auto sm:rounded-lg p2 md:p-8 md:shadow-xxl shadow-xxl">
         <div className="w-1/2">
           <div className="grid grid-cols-2">
             <div>
               <a href="https://krbex.github.io/Book-Club/">
                 <img
                   src={books}
-                  style={{ height: 200 }}
+                  style={{ height: 200, width: 200 }}
                   alt="the book club project"
                 ></img>
               </a>

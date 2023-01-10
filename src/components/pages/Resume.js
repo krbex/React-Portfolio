@@ -15,7 +15,7 @@ import tailwind from "../../assets/tailwind.png";
 
 export default function Resume() {
   return (
-    <div className="my-3.5">
+    <div className="my-3.5 h-screen">
       <h2>My Resume</h2>
       <div className="justify-center grid flex col my-3.5	">
         <h3>

@@ -3,7 +3,7 @@ import portrait from "../../assets/portrait.jpg";
 
 export default function Home() {
   return (
-    <div className="bg-blue-900">
+    <div className="bg-blue-900 h-screen">
       <div class="bg-blue-500 md:max-w-6xl md:m-auto sm:rounded-lg p2 md:p-8 md:shadow-xxl shadow-xxl">
         <section className="Home">
           <div className="about-me-title flex flex-row">
