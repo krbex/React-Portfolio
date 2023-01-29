@@ -1,17 +1,17 @@
 import React from "react";
-import css from "../../assets/css.png";
-import github from "../../assets/GitHub-Mark-32px.png";
-import mongodb from "../../assets/icons8-mongodb-48.png";
-import node from "../../assets/icons8-nodejs-48.png";
-import react from "../../assets/icons8-react-48.png";
-import javascript from "../../assets/javascript.png";
-import npm from "../../assets/npm.png";
-import graphql from "../../assets/graphql.png";
-import express from "../../assets/express.png";
-import vs from "../../assets/vs.png";
-import heroku from "../../assets/heroku.png";
-import html from "../../assets/html.png";
-import tailwind from "../../assets/tailwind.png";
+import css from "../assets/css.png";
+import github from "../assets/GitHub-Mark-32px.png";
+import mongodb from "../assets/icons8-mongodb-48.png";
+import node from "../assets/icons8-nodejs-48.png";
+import react from "../assets/icons8-react-48.png";
+import javascript from "../assets/javascript.png";
+import npm from "../assets/npm.png";
+import graphql from "../assets/graphql.png";
+import express from "../assets/express.png";
+import vs from "../assets/vs.png";
+import heroku from "../assets/heroku.png";
+import html from "../assets/html.png";
+import tailwind from "../assets/tailwind.png";
 
 export default function Resume() {
   return (

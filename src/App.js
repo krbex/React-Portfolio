@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="bg-blue-900">
+    <div className="bg-blue-700">
       <div>
         <PortfolioContainer />
       </div>

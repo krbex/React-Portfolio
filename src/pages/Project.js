@@ -1,15 +1,21 @@
 import React from "react";
-import aidan from "../../assets/aidan.png";
-import books from "../../assets/BookClub.jpg";
-import codingfuel from "../../assets/codingfuel.png";
-import weather from "../../assets/weather.png";
-import github from "../../assets/GitHub-Mark-32px.png";
+import aidan from "../assets/aidan.png";
+import books from "../assets/BookClub.jpg";
+import codingfuel from "../assets/codingfuel.png";
+import weather from "../assets/weather.png";
+import github from "../assets/GitHub-Mark-32px.png";
+import r from "../assets/R.png";
+import ggs from "../assets/ggs.png";
 
 export default function Project() {
   return (
     <div className="h-screen">
-      <h1 className="w-2">My Portfolio</h1>
-      <div className="flex grid grid-cols-2 justify-center bg-blue-500 md:max-w-6xl md:m-auto sm:rounded-lg p2 md:p-8 md:shadow-xxl shadow-xxl">
+      <img
+        src={r}
+        alt="my portfolio"
+        className="max-w-lg max-h-10 items-center mx-auto"
+      ></img>
+      <div className="flex grid grid-cols-2 justify-center bg-sky-400 md:max-w-6xl md:m-auto sm:rounded-lg p2 md:p-8 md:shadow-xxl shadow-xxl">
         <div className="w-1/2">
           <div className="grid grid-cols-2">
             <div>
@@ -115,6 +121,31 @@ export default function Project() {
           </div>
           <div>
             <a href="href=https://github.com/krbex/React-Portfolio">
+              <img src={github} alt="github icon"></img>
+            </a>
+          </div>
+        </div>
+        <div className="w-1/2">
+          <div className="grid grid-cols-2">
+            <div>
+              <a href="https://found-404.herokuapp.com/">
+                <img src={ggs} style={{ height: 200 }} alt="Gaming Gods"></img>
+              </a>
+              <p>Gaming Gods</p>
+            </div>
+            <div className="grid grid-cols-1">
+              <p>
+                Gaming Gods was a collaborative project developed at the end of
+                the UT coding bootcamp as a mock ecommerce website.
+              </p>
+              <p>
+                Technologies used: React, Chakra UI, Heroku, Apollo, GraphQL,
+                MongoDB
+              </p>
+            </div>
+          </div>
+          <div>
+            <a href="href=https://github.com/krbex/404-Found">
               <img src={github} alt="github icon"></img>
             </a>
           </div>
