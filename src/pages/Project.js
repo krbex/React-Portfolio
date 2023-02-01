@@ -9,13 +9,13 @@ import ggs from "../assets/ggs.png";
 
 export default function Project() {
   return (
-    <div className="h-screen">
+    <div className="h-[79rem] bg-blue-900">
       <img
         src={r}
         alt="my portfolio"
-        className="max-w-lg max-h-10 items-center mx-auto"
+        className="max-w-lg max-h-lg items-center mx-auto"
       ></img>
-      <div className="flex grid grid-cols-2 justify-center bg-sky-400 md:max-w-6xl md:m-auto sm:rounded-lg p2 md:p-8 md:shadow-xxl shadow-xxl">
+      <div className="flex grid grid-cols-2 justify-center bg-blue-500 md:max-w-6xl md:m-auto sm:rounded-lg p2 md:p-8 md:shadow-xxl shadow-xxl">
         <div className="w-1/2">
           <div className="grid grid-cols-2">
             <div>

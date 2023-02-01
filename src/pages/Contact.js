@@ -8,7 +8,7 @@ export default function Contact() {
   });
 
   return (
-    <div className="form-container h-screen">
+    <div className="form-container h-screen mt-3">
       <div className="flex justify-center">
         <p>
           You can reach me by email at{<br></br>}

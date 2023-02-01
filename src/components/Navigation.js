@@ -3,7 +3,7 @@ import React from "react";
 export default function Navigation({ currentPage, handlePageChange }) {
   return (
     <div className="nav flex flex-row justify-end space-x-4">
-      <p className="nav-item">
+      <p className="nav-item bg-blue-800 hover:bg-blue-400 active:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300 rounded-md">
         <a
           href="#home"
           onClick={() => handlePageChange("Home")}
@@ -14,7 +14,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
           About Me
         </a>
       </p>
-      <p className="nav-item">
+      <p className="nav-item bg-blue-800 hover:bg-blue-400 active:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300 rounded-md">
         <a
           href="#contact"
           onClick={() => handlePageChange("Contact")}
@@ -24,7 +24,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
           Contact
         </a>
       </p>
-      <p className="nav-item">
+      <p className="nav-item bg-blue-800 hover:bg-blue-400 active:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300 rounded-md">
         <a
           href="#project"
           onClick={() => handlePageChange("Project")}
@@ -34,7 +34,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </p>
-      <p className="nav-item">
+      <p className="nav-item bg-blue-800 hover:bg-blue-400 active:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300 rounded-md">
         <a
           href="#resume"
           onClick={() => handlePageChange("Resume")}

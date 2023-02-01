@@ -12,11 +12,12 @@ import vs from "../assets/vs.png";
 import heroku from "../assets/heroku.png";
 import html from "../assets/html.png";
 import tailwind from "../assets/tailwind.png";
+import chakra from "../assets/chakra.png";
+import apollo from "../assets/apollo.png";
 
 export default function Resume() {
   return (
     <div className="my-3.5 h-screen">
-      <h2>My Resume</h2>
       <div className="justify-center grid flex col my-3.5	">
         <h3>
           These are the technologies I use to build responsive client side web
@@ -58,6 +59,13 @@ export default function Resume() {
               alt="javascript icon"
             ></img>
           </a>
+          <a href="https://chakra-ui.com/">
+            <img
+              className="transition hover:scale-125 duration-125 ease-in"
+              src={chakra}
+              alt="chakra ui icon"
+            ></img>
+          </a>
         </div>
       </div>
       <div className="justify-center space-x-2 grid flex col my-3.5	">
@@ -92,6 +100,13 @@ export default function Resume() {
               className="transition hover:scale-125 duration-125"
               src={express}
               alt="Express JS icon"
+            ></img>
+          </a>
+          <a href="https://www.apollographql.com/">
+            <img
+              className="transition hover:scale-125 duration-125 ease-in"
+              src={apollo}
+              alt="apollo ui icon"
             ></img>
           </a>
         </div>
@@ -132,17 +147,18 @@ export default function Resume() {
           </a>
         </div>
       </div>
-      <div className="justify-center grid flex col my-3.5	">
-        <h3>My education</h3>
+      <div className="justify-center grid flex col my-3.5	pt-12">
+        <h3 className="font-bold">My education:</h3>
         <div>
           <p>Texas A&M University</p>
           <p>Bachelors of Science, 2014 - 2018</p>
         </div>
       </div>
-      <div className="justify-center grid flex col my-5.5	">
-        <h3>My work experience</h3>
+      <div className="justify-center grid relative col my-3.5	pt-12 -left-10">
+        <h3 className="font-bold">My work experience:</h3>
         <div>
-          <p>Multiview</p>
+          <p>Multiview, Inc.</p>
+          <p>Irving, Texas</p>
           <p>2019 - Present</p>
         </div>
       </div>
